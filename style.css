@@ -14,7 +14,7 @@ body {
     height: 400px;
     padding: 0;
     box-sizing: border-box;
-    background: #424f6f;
+    background: #1b3986;
 }
 
 *:after,
@@ -26,7 +26,7 @@ body {
     margin: 10% auto;
     width: 80%;
     height: 80%;
-    animation: floaty 2s infinite;
+    animation: floaty 5s infinite;
 }
 
 #spooky #body {
@@ -34,7 +34,7 @@ body {
     margin: 50px auto 0;
     width: 180px;
     height: 220px;
-    background: #f2fbf1;
+    background: #34d322;
     border-top-left-radius: 90px;
     border-top-right-radius: 90px;
 }
@@ -121,7 +121,7 @@ body {
     width: 180px;
     height: 40px;
     border-radius: 50%;
-    animation: zoomy 2s infinite;
+    animation: zoomy 5s infinite;
 }
 
 @keyframes floaty {
@@ -130,7 +130,7 @@ body {
     }
 
     50% {
-        transform: translateY(-20px);
+        transform: translateY(-70px);
     }
 }
 
