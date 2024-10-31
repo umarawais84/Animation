@@ -15,6 +15,12 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #1b3986;
+    transition: scale 0.2s;
+}
+
+#container:hover #eyes {
+    scale: 2;
+    color: red;
 }
 
 *:after,
@@ -130,13 +136,13 @@ body {
     }
 
     50% {
-        transform: translateY(-70px);
+        transform: translateY(-50px);
     }
 }
 
 @keyframes zoomy {
     0%, 100% {
-        transform: scale(1);
+        transform: scale(2);
     }
 
     50% {
