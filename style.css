@@ -17,7 +17,7 @@ body {
     background: #1b3986;
     transition: scale 0.2s;
 }
-
+/* Color of the eyes(lowkey broken) */
 #container:hover #eyes {
     scale: 2;
     color: red;
@@ -27,14 +27,14 @@ body {
 *:before {
     box-sizing: inherit;
 }
-
+/* Makes it float forever */
 #spooky {
     margin: 10% auto;
     width: 80%;
     height: 80%;
     animation: floaty 5s infinite;
 }
-
+/* Background color as well as color of ghost */
 #spooky #body {
     position: relative;
     margin: 50px auto 0;
@@ -136,9 +136,10 @@ body {
     }
 
     50% {
-        transform: translateY(-50px);
+        transform: translateY(-80px); /* Increased to make the ghost float higher */
     }
 }
+
 
 @keyframes zoomy {
     0%, 100% {
